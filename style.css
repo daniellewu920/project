@@ -1,11 +1,67 @@
-/* CSS files add styling rules to your content */
+@import url(https://fonts.google.com/specimen/Roboto+Slab?sidebar.open=true&selection.family=Roboto+Slab#standard-styles/* CSS files add styling rules to your content */);
+/* font-family: 'Roboto Slab', sans-serif; */
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);
+
+/* @import 'main.css'; */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   margin: 2em;
+  font-weight: 400;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: #077D59;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3em;
+}
+
+div.hero {
+  background-color: #F8D5C9;
+  width: 1000px;
+  border: 10px solid #F8D5C9;
+  margin: 0 auto 0 auto;
+}
+
+/* class="logo" */
+.logo img {
+  display: block;
+}
+
+header {
+  display: flex;
+}
+
+/* class='menu */
+header li {
+  display: inline;
+  margin-right: 3em;
+}
+
+@media only screen and (min-width: 760px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* //Extra small devices (portait phones, 576px and up) */
+@media (min-width: 576px) {
+  ...;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) {
+  ...;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...;
+}
+
+/* // Extra Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
 }
