@@ -1,153 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Orchestration</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h2><b>Orchestration 101</b></h2>
-      <nav>
-        <ul class="menu">
-          <li><a class="index.html">Home</a></li>
-          <li><a class="#">About</a></li>
-          <li><a class="#">How-To</a></li>
-          <li><a class="#">Famous Orchestrators</a></li>
-        </ul>
-      </nav>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+  <body style="background-color:aliceblue;">
+    <head>
+      <title>Orchestration</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <h2><b>Orchestration 101</b></h2>
+        <nav>
+          <ul class="menu">
+            <li><a class="index.html">Home</a></li>
+            <li><a class="#">About</a></li>
+            <li><a class="#">How-To</a></li>
+            <li><a class="#">Famous Orchestrators</a></li>
+          </ul>
+        </nav>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img
-              src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fnyp.jpg?v=1597799850091"
-              alt="NY Phil"
-              style="width:100%;"
-            />
-            <div class="carousel-caption">
-              <h3><b>New York Philharmonic</b></h3>
-              <p>
-                Housed in Lincoln Center, the NY Phil is one of the most
-                prestigious orchestras
-              </p>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img
+                src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fnyp.jpg?v=1597799850091"
+                alt="NY Phil"
+                style="width:100%;"
+              />
+              <div class="carousel-caption">
+                <h3><b>New York Philharmonic</b></h3>
+                <p>
+                  Housed in Lincoln Center, the NY Phil is one of the most
+                  prestigious orchestras
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fmso.jpg?v=1597799926850"
+                alt="MSO"
+                style="width:100%;"
+              />
+              <div class="carousel-caption">
+                <h3><b>Minnesota Symphony Orchestra</b></h3>
+                <p>
+                  One of the biggest orchestras in the US, located right in
+                  Minnesota
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fdownload.jpg?v=1597800031469"
+                alt="BSO"
+                style="width:100%;"
+              />
+              <div class="carousel-caption">
+                <h3><b>Baltimore Symphony Orchestra</b></h3>
+                <p>
+                  After almost losing their funding, the Baltimore Symphony
+                  Orchestra remains one of the biggest orchestras in the country
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="item">
-            <img
-              src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fmso.jpg?v=1597799926850"
-              alt="MSO"
-              style="width:100%;"
-            />
-            <div class="carousel-caption">
-              <h3><b>Minnesota Symphony Orchestra</b></h3>
-              <p>
-                One of the biggest orchestras in the US, located right in
-                Minnesota
-              </p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img
-              src="https://cdn.glitch.com/c15cdbf4-48cf-44a2-92d2-2113841e993a%2Fdownload.jpg?v=1597800031469"
-              alt="BSO"
-              style="width:100%;"
-            />
-            <div class="carousel-caption">
-              <h3><b>Baltimore Symphony Orchestra</b></h3>
-              <p>
-                After almost losing their funding, the Baltimore Symphony
-                Orchestra remains one of the biggest orchestras in the country
-              </p>
-            </div>
-          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#myCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="container">
+          <h2>
+            Famous Orchestrators
+          </h2>
+          <h3>
+            Richard Wagner
+          </h3>
+          <p>
+            Having written "Salome", "Elektra", and "Alpine Symphony", Strauss
+            is known to be one of the greatest orchestrators in <br />
+            classical music literature. A German composer, born in 1864, Strauss
+            is known for some of the most well-known operas and <br />
+            large orchestral works to date. His orchestrations will make the
+            music come alive in the hall.
+          </p>
+          <h3>
+            Maurice Ravel
+          </h3>
+          <p>
+            Known for his famous works, "Daphnis et Chloe", "Bolero", and "Le
+            Tombeau de Couperin", Ravel was known as one of the <br />
+            greatest orchestrators in the 20th century. He even went and
+            orchestrated Mussorgsky's "Pictures at an Exhibition", which <br />
+            was originally written for solo piano. A French composer, conductor,
+            and pianist born in 1875, Ravel soon became one of the <br />
+            biggest inspirations of composers in the 21st century.
+          </p>
+          <h3>Gustav Mahler</h3>
+          <p>
+            Well known for his symphonies and song cycles, Gustav Mahler is one
+            of the best orchestrators in all <br />
+            of music history. Having written his historic and momentous Second
+            Symphony, Mahler soon established <br />
+            himself as an amazing orchestrator. However, in his time, he was not
+            as well known as he is today. Leonard <br />
+            Bernstein made all of Mahler's works as well known as they are
+            today. Mahler is regularly programmed on all <br />
+            top orchestras around the world.
+          </p>
+          <h3>
+            Dmitri Shostakovich
+          </h3>
+          <p>
+            Shostakovich is personally one of my favorite composers of all time.
+            He is also one of the best orchestrators <br />
+            of all time. He has written 15 symphonies, all that tell a brilliant
+            story. His use of harmony and timbre really <br />
+            define his style and his distinct sound. Once you listen to one
+            Shosty symphony, you'll recognize his style immediately
+          </p>
+          <h3>
+            Igor Stravinsky
+          </h3>
+          <p>
+            In addition to his orchestral pieces, Stravinsky wrote 3 brilliant
+            ballets: Firebird, Petrouchka, and Rite of Spring. <br />
+            All tell very intricate stories. The orchestration of these ballets
+            are very large. They are very famous in using <br />
+            auxiliary instruments for the winds and a plethora of percussion.
+            Stravinsky also wrote a couple symphonies and some <br />
+            general orchestra pieces.
+          </p>
+          <h3>
+            ...and those are just to name a few! In music history and
+            orchestration, we study a plethora of composers and how they used
+            standard orchestral instruments in the context of a big work. We
+            study them and we learn from them by doing the thing we do most:
+            listen. By simply listening to these pieces, you can learn <br />
+            so much about how deeply intricate and sophisticated these
+            orchestrations are.
+          </h3>
+        </div>
       </div>
-
-      <div class="container">
-        <h2>
-          Famous Orchestrators
-        </h2>
-        <h3>
-          Richard Wagner
-        </h3>
-        <p>
-          Having written "Salome", "Elektra", and "Alpine Symphony", Strauss is
-          known to be one of the greatest orchestrators in <br />
-          classical music literature. A German composer, born in 1864, Strauss
-          is known for some of the most well-known operas and <br />
-          large orchestral works to date. His orchestrations will make the music
-          come alive in the hall.
-        </p>
-        <h3>
-          Maurice Ravel
-        </h3>
-        <p>
-          Known for his famous works, "Daphnis et Chloe", "Bolero", and "Le
-          Tombeau de Couperin", Ravel was known as one of the <br />
-          greatest orchestrators in the 20th century. He even went and
-          orchestrated Mussorgsky's "Pictures at an Exhibition", which <br />
-          was originally written for solo piano. A French composer, conductor,
-          and pianist born in 1875, Ravel soon became one of the <br />
-          biggest inspirations of composers in the 21st century.
-        </p>
-        <h3>Gustav Mahler</h3>
-        <p>
-          Well known for his symphonies and song cycles, Gustav Mahler is one of the best orchestrators in all <br>
-          of music history. Having written his historic and momentous Second Symphony, Mahler soon established <br>
-          himself as an amazing orchestrator. However, in his time, he was not as well known as he is today. Leonard <br>
-          Bernstein made all of Mahler's works as well known as they are today. Mahler is regularly programmed on all <br>
-          top orchestras around the world.
-        </p>
-        <h3>
-          Dmitri Shostakovich
-        </h3>
-        <p>
-          Shostakovich is personally one of my favorite composers of all time. He is also one of the best orchestrators <br>
-          of all time. He has written 15 symphonies, all that tell a brilliant story. His use of harmony and timbre really <br>
-          define his style and his distinct sound. Once you listen to one Shosty symphony, you'll recognize his style immediately
-        </p>
-        <h3>
-          Igor Stravinsky
-        </h3>
-        <p>
-          In addition to his orchestral pieces, Stravinsky wrote 3 brilliant ballets: Firebird, Petrouchka, and Rite of Spring. <br>
-          All tell very intricate stories. The orchestration of these ballets are very large. They are very famous in using <br>
-          auxiliary instruments for the winds and a plethora of percussion. Stravinsky also wrote a couple symphonies and some <br>
-          general orchestra pieces. 
-        </p>
-        <h3>
-          ...and those are just to name a few! In music history and orchestration, we study a plethora of composers and how they
-          used standard orchestral instruments in the context of a big work. We study them and we learn from them by doing the
-          thing we do most: listen. By simply listening to these pieces, you can learn <br> so much about how deeply intricate and
-          sophisticated these orchestrations are.
-        </h3>
-      </div>
-    </div>
+    </body>
   </body>
 </html>
