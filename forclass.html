@@ -1,64 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <head>
-      <meta name="author" content="Danielle Wu" />
-      <title>Learn how to orchestrate</title>
+    <title>Orchestration</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Tips and tricks for how to orchestrate</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-      <link href="https://treebranch.glitch.com/forclass.html" />
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="la.jpg" alt="Los Angeles" style="width:100%;" />
+          </div>
 
-      <!-- Bootstrap core CSS -->
-      <link
-        href="/docs/4.5/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-        crossorigin="anonymous"
-      />
+          <div class="item">
+            <img src="chicago.jpg" alt="Chicago" style="width:100%;" />
+          </div>
 
-      <style>
-        .bd-placeholder-img {
-          font-size: 16px;
-          text-anchor: left;
-        }
-
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 14px;
-          }
-        }
-      </style>
-    </head>
-    <body>
-      <div class="container">
-        <header class="blog-header py-3">
-          <div
-            class="row flex-nowrap justifu-content-between align-items-center"
-          ></div>
-        </header>
-        <div class="nav-scroller py-1 mb-2">
-          <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">Portfolio</a>
-            <a class="p-2 text-muted" href="#">How To</a>
-            <a class="p-2 text-muted" href="#">Orchestration Guides</a>
-            <a class="p-2 text-muted" href="#">Instrument Families</a>
-            <a class="p-2 text-muted" href="#">Famous Orchestrators</a>
-            <a class="p-2 text-muted" href="#">Pieces</a>
-          </nav>
-        </div>
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-          <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">
-              The Art of Orchestration
-            </h1>
-            <p class="lead my-3">
-              Orchestration and arranging are beautiful ways to help you <br />
-              express music. In order to do so, you need to learn about <br />
-              instrument families, orchestra pieces, timbre of instruments, and
-              etc.
-            </p>
+          <div class="item">
+            <img src="ny.jpg" alt="New york" style="width:100%;" />
           </div>
         </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </body>
-  </head>
+    </div>
+  </body>
 </html>
+
+<body>
+  <div class="container">
+    <header class="blog-header py-3">
+      <div
+        class="row flex-nowrap justifu-content-between align-items-center"
+      ></div>
+    </header>
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 text-muted" href="#">Portfolio</a>
+        <a class="p-2 text-muted" href="#">How To</a>
+        <a class="p-2 text-muted" href="#">Orchestration Guides</a>
+        <a class="p-2 text-muted" href="#">Instrument Families</a>
+        <a class="p-2 text-muted" href="#">Famous Orchestrators</a>
+        <a class="p-2 text-muted" href="#">Pieces</a>
+      </nav>
+    </div>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h3 class="display-4 font-italic">
+          The Art of Orchestration
+        </h3>
+        <p class="lead my-3">
+          Orchestration and arranging are beautiful ways to help you
+          <br />
+          express music. In order to do so, you need to learn about <br />
+          instrument families, orchestra pieces, timbre of instruments, and etc.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
