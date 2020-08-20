@@ -39,46 +39,99 @@
  -->
 
     <header>
-      <div class="logo"></div>
-      <nav>
-        <ul class="menu">
-          <li><a class="index.html">Home</a></li>
-          <li><a class="#">About</a></li>
-          <li><a class="#">How-To</a></li>
-          <li>
-            <a class="https://treebranch.glitch.com/_forclass.html"
-              >Famous Orchestrators</a
-            >
-          </li>
-        </ul>
+      <!--       Learn more: Navbar with Text
+      https://getbootstrap.com/docs/4.5/components/navbar/#text -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Orchestration 101</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About </a>
+            </li>
+            <li class="nav-item">
+              <!--               <a class="nav-link" href="#howto">How-To</a> -->
+              <a class="nav-link" href="#">How-To</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="famousorch.html"
+                >Famous Orchestrators <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!--           Learn more: List (inline)
+          https://getbootstrap.com/docs/4.5/content/typography/#inline -->
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://instagram.com"
+                ><i class="fab fa-instagram"> </i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i> </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://facebook.com"
+                ><i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <ul class="socialmedia">
-        <li>
-          <a href="https://instagram.com"
-            >Instagram<i class="fab fa-instagram"> </i
-          ></a>
-        </li>
-        <li>
-          <a href="https://twitter.com"
-            >Twitter<i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://facebook.com"
-            >Facebook<i class="fab fa-facebook"></i>
-          </a>
-        </li>
-      </ul>
     </header>
 
     <main>
-      <div class="hero">
+<!--       <div class="hero">
         <h1><b>Guide to Orchestration</b></h1>
-      </div>
       <p>
         Learn how to orchestrate and learn about famous orchestrators before our
         time.
       </p>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          
+          
+          <div class="col-xs-4 col-sm-4 col-md-6 col-lg-12">
+            <h2>
+              Feature
+            </h2>
+            <a href="#">View more</a>
+          </div>
+          
+          <div class="col-xs-4 col-sm-4 col-md-6">
+            <h2>
+              Title
+            </h2>
+            <a href="#">View more</a>
+          </div>
+          
+          <div class="col-xs-4 col-sm-4 col-md-6">
+            <h2>
+              Title
+            </h2>
+            <a href="#">View more</a>
+          </div>
+          
+          
+        </div>
+      </div>
     </main>
 
     <footer>
