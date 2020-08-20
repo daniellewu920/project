@@ -10,8 +10,8 @@ body {
   /*   margin: 2em; */
   font-weight: 400;
   background-color: pink;
-  background-image: url(https://picsum.photos/id/1/2000);
-  background-attachment: fixed;
+/*   background-image: url(https://picsum.photos/id/1/2000);
+  background-attachment: fixed; */
 }
 
 h1 {
