@@ -50,6 +50,11 @@ div.hero {
   background-color: yellow;
 }
 
+/* class="video-media" */
+.video-media {
+  margin-bottom: 5em;
+}
+
 footer {
   /*   text-align: center; */
 }
