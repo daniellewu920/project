@@ -57,7 +57,9 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="about.html">About </a>
@@ -68,8 +70,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="famousorch.html"
-                >Famous Orchestrators </a
-              >
+                >Famous Orchestrators
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -96,50 +98,6 @@
       </nav>
     </header>
 
-    <main>
-<!--       <div class="hero">
-        <h1><b>Guide to Orchestration</b></h1>
-      <p>
-        Learn how to orchestrate and learn about famous orchestrators before our
-        time.
-      </p>
-      </div> -->
-      <div class="container mt-5">
-        <div class="row">
-          
-          
-          <div class="col-sm-4 col-md-6 col-lg-12 mb-5">
-            <h2>
-              Title
-            </h2>
-            <a href="#">View more</a>
-          </div>
-          
-          <div class="col-sm-4 col-md-6">
-            <h2>
-              Title
-            </h2>
-            <a href="#">View more</a>
-          </div>
-          
-          <div class="col-sm-4 col-md-6">
-            <h2>
-              Title
-            </h2>
-            <a href="#">View more</a>
-          </div>
-          
-          
-        </div>
-      </div>
-    </main>
-
-    <footer class="col-6 mx-auto text-center">
-      <p>
-        &copy; 2020
-      </p>
-    </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -159,3 +117,81 @@
     ></script>
   </body>
 </html>
+
+<!-- Bootstrap core CSS -->
+<link href="../../dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Custom styles for this template -->
+<link href="cover.css" rel="stylesheet" />
+
+<body class="text-center">
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading"><b>Orchestration</b></h1>
+      <p class="lead">
+        Beginner tips on how you can get started with orchestration. <br />
+        Ranging from instrumentation to specific techniques
+      </p>
+      <p class="lead">
+        <a href="howto.html" class="btn btn-lg btn-secondary">Learn more</a>
+      </p>
+    </main>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+      );
+  </script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+
+  <main>
+    <!--       <div class="hero">
+        <h1><b>Guide to Orchestration</b></h1>
+      <p>
+        Learn how to orchestrate and learn about famous orchestrators before our
+        time.
+      </p>
+      </div> -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4 col-md-6 col-lg-12 mb-5">
+          <h2>
+            About
+          </h2>
+          <a href="about.html">View more</a>
+        </div>
+
+        <div class="col-sm-4 col-md-6">
+          <h2>
+            Famous Orchestrators
+          </h2>
+          <a href="famousorch.html">View more</a>
+        </div>
+
+        <div class="col-sm-4 col-md-6">
+          <h2>
+            Contact
+          </h2>
+          <a href="contact.html">View more</a>
+
+          <footer class="col-6 mx-auto text-center">
+            <p>
+              &copy; 2020
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
